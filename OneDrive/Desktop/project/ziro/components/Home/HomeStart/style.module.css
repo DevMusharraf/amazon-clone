@@ -1,0 +1,37 @@
+.icon1 {
+  position: absolute;
+  bottom: calc(100% - 25rem);
+  left: calc(100% - 10rem);
+  width: 17rem;
+}
+
+.icon2 {
+  bottom: calc(100% - 2rem);
+  right: calc(100% - 12rem);
+  width: 5rem;
+  position: absolute;
+}
+
+.icon3 {
+    position: absolute;
+    top: calc(100% - 8rem);
+    right: calc(100% - 3rem);
+    width: 5rem;
+}
+
+
+.main_img {
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1 / 1;
+   
+    object-fit: cover;
+
+    object-position: center;
+    border-radius: 40px;
+}
+
+.acc_item {
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
